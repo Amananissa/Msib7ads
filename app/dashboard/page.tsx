@@ -41,11 +41,17 @@ const Dashboard = () => {
 
         </div>
         <ul className="flex-1">
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Dashboard</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Device</li>
           <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Contacts</li>
-          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Groups List</li>
           <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Message List</li>
-          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Outgoing Chat</li>
-          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Incoming Chat</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Broadcast</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Campaign</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Auto Reply</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Customer Service</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Analytics</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Forwardin API</li>
+          <li className={`p-4 hover:bg-${isDarkMode ? 'gray-700' : 'gray-200'}`}>Settings</li>
         </ul>
       </div>
       <div className="flex-1 flex flex-col">
